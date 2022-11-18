@@ -1,0 +1,42 @@
+import java.util.scanner;
+class QuadraticEquation
+{
+public sattic void main(String xx[])
+{
+Scanner input=new Scanner(System.in);
+System.out.println("enter the value of a:");
+double a=input.nextDouble();
+System.out.println("enter the value of b:");
+double b=input.nextDouble();
+System.out.println("enter the value of c:");
+double c=input.nextDouble();
+if(a==0.0) { System.out.println("the value of a cannot be 0");
+}
+else
+{
+if(d>0.0)
+{
+double r1=(-b+math.sqrt(d))/(2.0*a);
+double r2=(-b+math.sqrt(d))/(2.0*a);
+System.out.println("the roots are real and distinct and are "+r1+" and "+r2);
+}
+else if(d==0.0)
+{
+double r1=-b/(2.0*a);
+System.out.println("the roots are real and equal and are "+r1+" and "+r1);
+}
+else
+{
+double r1=-b/(2.0*a);
+double r2=(+Math.sqrt(Math.abs(d))/(2.0*a));
+double r4=(+Math.sqrt(Math.abs(d))/(2.0*a));
+System.out.println("the roots are real and imaginary and are "+r1+" +i "+r2+" and "+r1+" +i "+r4);
+  }
+  }
+ }
+}
+
+
+
+
+
